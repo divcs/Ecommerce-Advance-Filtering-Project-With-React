@@ -1,11 +1,11 @@
 import React from "react";
 import "./Products.css";
-import { Card } from "../components/Card";
-export const Products = () => {
+
+export const Products = ({result}) => {
   return (
     <>
-      <section className="card-container">
-        <Card/>
+      <section className="card-container">{result}
+        
       </section>
     </>
   );
