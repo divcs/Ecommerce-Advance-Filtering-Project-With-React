@@ -2,6 +2,10 @@ import React from 'react'
 
 export const Input = () => {
   return (
-    <div>Input</div>
+    
+    <label className='sidebar-label-container'>
+    <input type="radio" name="test2" />
+    <span className="checkmark"></span>All
+  </label>
   )
 }
